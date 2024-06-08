@@ -110,9 +110,9 @@
             <h2>Contact Us</h2>
             <p>Ready to start your next project? Get in touch with us today!</p>
             <ul>
-                <li><strong>Phone:</strong> (555) 123-4567</li>
+                <li><strong>Phone:</strong> +977 9807880665, 9807674741</li>
                 <li><strong>Email:</strong> info@kansasconstruction.com</li>
-                <li><strong>Address:</strong> 1234 Main St, Kansas City, KS 66101</li>
+                <li><strong>Address:</strong> Aurahi 01, Mahottari, Nepal</li>
             </ul>
         </section>
     </div>
