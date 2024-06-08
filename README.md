@@ -2,79 +2,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Kansas Construction and Consultancy</title>
+    <title>Kansas Construction and Consultancy</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
         }
-        .container {
-            max-width: 1200px;
-            margin: auto;
-            overflow: hidden;
-            padding: 0 20px;
-        }
-        header {
+        header, footer {
             background: #333;
             color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #0779e4 3px solid;
-        }
-        header a {
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        header ul {
-            padding: 0;
-            list-style: none;
-        }
-        header li {
-            float: left;
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-        .main-content {
-            padding: 20px;
-            background: #fff;
-        }
-        .main-content h1 {
             text-align: center;
-            color: #333;
-        }
-        .services, .contact, .why-choose-us {
             padding: 20px 0;
         }
-        footer {
-            background: #333;
+        header h1, footer p {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
             color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
             text-align: center;
-            padding: 30px 0;
-            margin-top: 20px;
+        }
+        h3 {
+            color: #333;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 5px 0;
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Kansas Construction and Consultancy</h1>
-            <nav>
-                <ul>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#why-choose-us">Why Choose Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Kansas Construction and Consultancy</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#why-choose-us">Why Choose Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <div class="container main-content">
+    <div class="container">
         <section id="welcome">
-            <h1>Welcome to Kansas Construction and Consultancy!</h1>
+            <h2>Welcome!</h2>
             <p>At Kansas Construction and Consultancy, we are committed to delivering high-quality construction and consultancy services tailored to your unique needs. Our team of experienced professionals ensures that every project is executed with precision, efficiency, and excellence.</p>
         </section>
         <section id="services">
@@ -109,9 +107,9 @@
             <h2>Contact Us</h2>
             <p>Ready to start your next project? Get in touch with us today!</p>
             <ul>
-                <li><strong>Phone:</strong> +977 9807880665, 9807674741</li>
+                <li><strong>Phone:</strong> (555) 123-4567</li>
                 <li><strong>Email:</strong> info@kansasconstruction.com</li>
-                <li><strong>Address:</strong> Aurahi 01, Mahottari, Nepal</li>
+                <li><strong>Address:</strong> 1234 Main St, Kansas City, KS 66101</li>
             </ul>
         </section>
     </div>
