@@ -136,7 +136,7 @@
   }
   .letsgetstrated {
     flex-wrap: wrap;
-    width: 100% !important;
+    width: 86% !important;
   }
 
   .service {
@@ -311,6 +311,36 @@
   }
   .construction-images {
     width: 100% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    display: none;
+  }
+  .header-mob {
+    width: 92%;
+    margin: 0 auto;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    display: block !important;
+  }
+
+  .header-left-mob {
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-icon-wrapper a {
+    padding: 0px 5px;
+    display: inline-block;
+  }
+  .header-mob i {
+    color: #e02454;
+    font-size: 17px;
+  }
+  .bar-icons {
+    margin-left: -15px;
   }
 }
 
